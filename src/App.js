@@ -19,8 +19,8 @@ function App() {
       <Header />
       <div>
           <Switch>
-              <Route exact path="/" component={Home}/>
               <Route exact path="/reactinfo" component={Home}/>
+              <Route exact path="/home" component={Home}/>
               <Route exact path="/about-us" component={About}/>
               <Route exact path="/contact-us" component={Contact}/>
               <Route exact path="/blog" component={Blog}/>
