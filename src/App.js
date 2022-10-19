@@ -20,11 +20,11 @@ function App() {
       <div>
           <Switch>
               <Route exact path="/" component={Home}/>
-              <Route path="/home" component={Home}/>
-              <Route path="/about-us" component={About}/>
-              <Route path="/contact-us" component={Contact}/>
-              <Route path="/blog" component={Blog}/>
-              <Route path="/gallery" component={Gallery}/>
+              <Route exact path="/home" component={Home}/>
+              <Route exact path="/about-us" component={About}/>
+              <Route exact path="/contact-us" component={Contact}/>
+              <Route exact path="/blog" component={Blog}/>
+              <Route exact path="/gallery" component={Gallery}/>
           </Switch>
       </div>
       <Footer />
