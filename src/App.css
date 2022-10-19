@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+.MuiBox-root.css-1t6c9ts a {
+  width: auto;
+  padding: 10px;
+  text-decoration: none;
+  color: wheat;
+}
+a.MuiTypography-root.MuiTypography-h6.MuiTypography-noWrap.css-m5x0z-MuiTypography-root {
+  color: white;
+}
+.MuiToolbar-root.MuiToolbar-regular.css-r6ewbb-MuiToolbar-root a {
+  text-decoration: none;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+a.MuiTypography-root.MuiTypography-h6.MuiTypography-noWrap.css-m5x0z-MuiTypography-root {
+  color: white;
+}
+
+.css-mhc70k-MuiGrid-root {
+  margin-left: 30px !important;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+span.carousel-control-next-icon::after {
+  content: ">" !important;
+}
+.carousel-control-prev-icon::after {
+  content: "<" !important;
+}
+.carousel-dark .carousel-caption {
+  color: #fff !important;
+}
+
+.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.MuiInputBase-formControl.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+  width: 180%;
+  margin-top: 0px;
+}
+h2.contactUs {
+  margin-left: 22px;
+  margin-top: 19px;
+}
+.container.sec2 {
+  margin-top: 20px;
+}
+div.mymessages {
+  width: 101% !important;
+}
+button#sendBtn {
+  margin-left: 31px;
+}
+
+h2.gallery {
+  text-align: center;
+  margin-top: 20px;
+  padding: 12px 12px 10px;
+  color: olive;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.carousel-caption.d-none.d-md-block {
+  margin-bottom: 400px;
+}
+img.w-100.d-block {
+  height: 820px;
+}
